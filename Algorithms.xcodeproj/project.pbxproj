@@ -10,6 +10,7 @@
 		32391EDC1DC98C5900D04262 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32391EDB1DC98C5900D04262 /* main.cpp */; };
 		32391EE71DC98F5600D04262 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32391EE51DC98F5600D04262 /* Circle.cpp */; settings = {ASSET_TAGS = (); }; };
 		32391EEA1DC9DD7B00D04262 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32391EE81DC9DD7B00D04262 /* MergeSort.cpp */; settings = {ASSET_TAGS = (); }; };
+		32391EED1DC9E5F200D04262 /* MergeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32391EEB1DC9E5F200D04262 /* MergeNode.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		32391EE61DC98F5600D04262 /* Circle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
 		32391EE81DC9DD7B00D04262 /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
 		32391EE91DC9DD7B00D04262 /* MergeSort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
+		32391EEB1DC9E5F200D04262 /* MergeNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeNode.cpp; sourceTree = "<group>"; };
+		32391EEC1DC9E5F200D04262 /* MergeNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MergeNode.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				32391EE61DC98F5600D04262 /* Circle.hpp */,
 				32391EE81DC9DD7B00D04262 /* MergeSort.cpp */,
 				32391EE91DC9DD7B00D04262 /* MergeSort.hpp */,
+				32391EEB1DC9E5F200D04262 /* MergeNode.cpp */,
+				32391EEC1DC9E5F200D04262 /* MergeNode.hpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32391EED1DC9E5F200D04262 /* MergeNode.cpp in Sources */,
 				32391EE71DC98F5600D04262 /* Circle.cpp in Sources */,
 				32391EEA1DC9DD7B00D04262 /* MergeSort.cpp in Sources */,
 				32391EDC1DC98C5900D04262 /* main.cpp in Sources */,

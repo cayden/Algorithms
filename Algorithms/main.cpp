@@ -9,6 +9,7 @@
 #include <iostream>
 #include "Circle.hpp"
 #include "MergeSort.hpp"
+#include "MergeNode.hpp"
 using namespace std;
 
 //0 test1 测试
@@ -25,10 +26,15 @@ void testMergeSort(){
     
 }
 
+void testMergeNode(){
+    mergeListTest();
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    test1();
-    testMergeSort();
+//    testMergeSort();
+    testMergeNode();
     
     return 1;
 }
